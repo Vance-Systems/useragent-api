@@ -1,0 +1,26 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "UserAgentPulse - Device, OS & Browser Detection API",
+    "description": "High-speed User-Agent header parser, device categorizer, bot detection, and client telemetry.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://useragent-api.onrender.com",
+      "description": "Production Cloud Server"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health Check",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
